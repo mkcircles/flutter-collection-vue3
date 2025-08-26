@@ -5,18 +5,18 @@ The current official Flutterwave vue library is incompatible with vue3 and nuxt 
 
 ## installation
 
-you can add flutterwave-vue3 to your project using:
+you can add flutterwave-collection-vue3 to your project using:
 
 ```bash
-yarn add fflutterwave-collection-vue3 //or npm i flutterwave-collection-vue3
+yarn add flutterwave-collection-vue3 //or npm i flutterwave-collection-vue3
 ```
 
 ## Add to project (Core Vue3)
 
-import the installed flutterwave-vue3 in your main.js file
+import the installed flutterwave-collection-vue3 in your main.js file
 
 ```javascript
-import Flutterwave from 'flutterwave-vue3'
+import Flutterwave from 'flutterwave-collection-vue3'
 ```
 
 then use the .use() method to add Flutterwave to plugin lists
@@ -32,7 +32,7 @@ create a file called ravePlugin in your plugins folder, then go ahead to define 
 
 ```javascript
 import { defineNuxtPlugin } from "#app";
-import Flutterwave from "flutterwave-vue3";
+import Flutterwave from "flutterwave-collection-vue3";
 
 export default defineNuxtPlugin((nuxtApp) => {
     nuxtApp.vueApp.use(Flutterwave, {});
@@ -44,7 +44,7 @@ export default defineNuxtPlugin((nuxtApp) => {
 you can now upen payment modal using the `useFlutterwave` composable,
 
 ```javascript
-import {useFlutterwave} from "flutterwave-vue3"
+import {useFlutterwave} from "flutterwave-collection-vue3"
 //this will launch Fluterwave payment modal
 useFlutterwave({
     amount: 4000,//amount
