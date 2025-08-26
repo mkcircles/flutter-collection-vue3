@@ -1,6 +1,6 @@
 {
   "name": "flutterwave-collection-vue3",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./build/index.js",
   "types": "./src/index.ts",
   "scripts": {
@@ -17,6 +17,7 @@
     "typescript": "^4.3.5",
     "vite": "^2.6.13"
   },
+
   "description": "The current official Flutterwave vue library is incompatible with vue3 and nuxt 3, why i created this fully typed with typescript version,",
   "repository": {
     "type": "git",
