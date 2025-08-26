@@ -1,6 +1,6 @@
 {
   "name": "flutterwave-collection-vue3",
-  "version": "0.0.3",
+  "version": "0.0.8",
   "main": "./build/index.js",
   "types": "./src/index.ts",
   "scripts": {

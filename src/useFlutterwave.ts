@@ -10,7 +10,7 @@ export default function (paymentData: PaymentData) {
     let payData = {
         ...paymentData,
         public_key: paymentData.public_key ?? '',
-        callback: (response) => {
+        callback: (response: any) => {
             paymentData.callback(response)
         }
     }

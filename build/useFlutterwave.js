@@ -3,7 +3,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const ApITracker_1 = __importDefault(require("./ApITracker"));
 function default_1(paymentData) {
     var _a;
     console.log({ paymentData });
